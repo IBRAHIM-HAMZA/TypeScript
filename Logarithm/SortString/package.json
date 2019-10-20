@@ -1,0 +1,18 @@
+{
+  "name": "sortstring",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/main.js",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
